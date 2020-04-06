@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <weather-forecast />
     <!-- Todos:
     1. location call/search to API
 
@@ -17,14 +17,13 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import WeatherForecast from "./components/WeatherForecast";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
-  },
-  data: 
+    WeatherForecast
+  }
 };
 </script>
 
