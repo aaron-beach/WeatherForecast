@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <weather-forecast />
+    <forecast-weather />
     <!-- Todos:
     1. location call/search to API
 
@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import WeatherForecast from "./components/WeatherForecast";
+import ForecastWeather from "./components/ForecastWeather";
 
 export default {
   name: "App",
   components: {
-    WeatherForecast
+    ForecastWeather
   }
 };
 </script>
